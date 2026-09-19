@@ -1,24 +1,105 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>STEPFLOW — Шагомер</title>
     <link rel="stylesheet" href="../Pedometer/style-home/style.css">
 </head>
+
 <body>
-    <header class="header">
-        <div>
-            <h1>Pedometer</h1>
+    <!-- Блок 1: Главный экран с видеофоном -->
+    <section class="block-1">
+        <video class="bg-video" autoplay muted loop playsinline>
+            <source src="../Pedometer/img/fon.mp4" type="video/mp4">
+            Ваш браузер не поддерживает тег video.
+        </video>
+        <div class="banner-wrapper">
+            <div class="text">
+                <span class="subtitle">STEPFLOW · ШАГОМЕР</span>
+                <h1>Считай шаги.<br>Достигай целей.</h1>
+                <p>Точный подсчёт шагов, дистанции и калорий.<br>Мягкие уведомления и понятная статистика — без лишнего
+                    шума.</p>
+                <div class="actions">
+                    <button class="download">Скачать</button>
+                    <button class="more-info">Узнать больше</button>
+                </div>
+            </div>
         </div>
-        <nav>
-            <a href="#">Подробнее</a>
-            <a href="#">Скачать</a>
-            <a href="#">Версии</a>
-        </nav>
-        <div>
-            <button>Войти</button>
+    </section>
+
+    <!-- Блок 2: Экраны приложения с анимацией -->
+    <section class="block-2">
+        <h2 class="page-title">Приложение, которым приятно пользоваться</h2>
+        <div class="phone">
+            <img src="../Pedometer/img/Screenshot Phone 1.png" class="screenshot screenshot1"
+                alt="Экран подсчета шагов">
+            <img src="../Pedometer/img/Screenshot Phone 2.png" class="screenshot screenshot2" alt="Экран статистики">
+            <img src="../Pedometer/img/Screenshot Phone 3.png" class="screenshot screenshot3"
+                alt="Экран профиля и целей">
         </div>
-    </header>
+    </section>
+
+    <section class="block-3">
+        <h2 class="page-title2">Как это работает?</h2>
+        <div class="info-content">
+            <div class="info">
+                <img src="../Pedometer/img/Num Circle.png" alt="Номер 1">
+                <h3>Скачайте приложение</h3>
+                <p>Установите StepFlow из App Store или Google Play за 30 секунд.</p>
+            </div>
+            <div class="info">
+                <img src="../Pedometer/img/Num Circle2.png" alt="Номер 2">
+                <h3>Положите телефон в карман</h3>
+                <p>Приложение начнёт считать шаги автоматически, в фоне.</p>
+            </div>
+            <div class="info">
+                <img src="../Pedometer/img/Num Circle3.png" alt="Номер 3">
+                <h3>Следите за прогрессом</h3>
+                <p>Отслеживайте свой прогресс и достигайте целей.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="features">
+        <h2 class="features-title">Всё, что нужно для активной жизни</h2>
+        <div class="features-grid">
+            <article class="card">
+                <img class="card-icon" src="../Pedometer/img/Icon Box.png" alt="Иконка шагомера" width="48" height="48">
+                <h3 class="card-title">Точный шагомер</h3>
+                <p class="card-text">Использует акселерометр телефона для подсчёта шагов без разряда батареи.</p>
+            </article>
+
+            <article class="card">
+                <img class="card-icon" src="../Pedometer/img/Icon Box(1).png" alt="Иконка статистики" width="48" height="48">
+                <h3 class="card-title">GPS-маршруты</h3>
+                <p class="card-text">Записывает маршрут прогулки или пробежки и показывает его на карте.</p>
+            </article>
+
+            <article class="card">
+                <img class="card-icon" src="../Pedometer/img/Icon Box(2).png" alt="Иконка уведомлений" width="48"
+                    height="48">
+                <h3 class="card-title">История</h3>
+                <p class="card-text">Наглядные графики за неделю, месяц и год — видно прогресс сразу.</p>
+            </article>
+        </div>
+    </section>
+
+    <section class="block-5">
+        <h2 class="features-title">Первый шаг - самый простой</h2>
+        <h6>Скачайте StepFlow бесплатно и начните считать шаги уже сегодня.</h6>
+        <div class="download-buttons">
+            <a href="#" class="download-button">
+                <img src="../Pedometer/img/app-store-icon-logo.png" alt="App Store" width="50" height="50">
+                <p>Скачать в App Store</p>
+            </a>
+            <a href="#" class="download-button">
+                <img src="../Pedometer/img/google-play-sign-logo.png" alt="Google Play" width="50" height="50">
+                <p>Скачать в Google Play</p>
+            </a>
+        </div>
+    </section>
 </body>
+
 </html>
